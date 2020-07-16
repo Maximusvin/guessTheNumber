@@ -107,8 +107,8 @@ body {
 }
 
 .about {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
   background-image: url('../img/bg.png');
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .about__img {
-  margin-right: 50px;
+  margin-right: 80px;
 }
 
 .text__wrap,
@@ -279,8 +279,8 @@ body {
 }
 
 .footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
   text-align: center;
   background-image: url('../img/header-bg.jpg');
   background-size: cover;
