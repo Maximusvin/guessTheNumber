@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="#" class="logo">
+            <img src="./img/logo.png" alt="Logo" width="150" class="logo__img" />
+          </a>
+          <p class="logo__text">Угадай число</p>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about__wrap">
+            <img src="./img/maninregistration.png" alt="" width="200" class="about__img" />
+
+            <div class="text__wrap">
+              <h2 class="about__title">
+                Приветствую тебя, незнакомец!
+              </h2>
+              <p class="about__text">Меня зовут Антонио Чернных Рубака и я здесь вождь.</p>
+
+              <p class="about__text">Давай сыграем в игру. Но перед этим скажи, как я могу к тебе обращаться:</p>
+              <form class="about__form">
+                <input class="about__input js-name" type="text" name="name" placeholder="Назви мне свое прозвище" />
+                <button class="about__btn button">Выгравировать имя</button>
+              </form>
+              <p class="about__error">Введи имя, людишка!!! А то тебе не сдобровать!</p>
+            </div>
+
+            <div class="text__wrap2">
+              <h2 class="about__title">Отлично, <span id="name"></span></h2>
+
+              <p class="about__text">Теперь начнем игру!</p>
+
+              <p class="about__text">
+                Правила очень просты: тебе нужно угадать задуманное мной число от 0 до 100. У тебя есть 8 попыток. Если
+                не угадаешь - тогда пойдешь на обед моим гончим.
+              </p>
+              <p class="about__text">
+                Не переживай так быстро. Я тебе буду подсказывать. Если твоё число будет больше моего - я тебе сообщу об
+                этом. Если меньше - я также дам тебе знать.
+              </p>
+              <p class="about__text"><span id="name1"></span>, ты готов к испытанию?</p>
+              <div class="btn-wrap">
+                <button class="about__btn button about__btn-one about__btn-yes">Да, я готов!</button>
+                <button class="about__btn button about__btn-no">Нет, мне нужно подумать</button>
+              </div>
+              <p class="about__error2">Неверный ответ. Подумай еще раз!</p>
+            </div>
+
+            <div class="text__wrap3">
+              <h2 class="about__title">Да начнется игра!!</h2>
+              <p class="about__text">Введите число от 0 до 100:</p>
+
+              <form class="about__form form-number">
+                <input
+                  class="about__input input-number"
+                  type="text"
+                  name="name"
+                  placeholder="Не бойся. Смелее вводи число"
+                />
+                <button class="about__btn button">Подтвердить!</button>
+              </form>
+              <p class="about__error3">Ты ввел НЕ число! Не играй с моим терпением!</p>
+              <p class="more">Твое число <span class="text-big" id="more"></span> и оно больше моего!</p>
+              <p class="smaller">Твое число <span class="text-big" id="smaller"></span> и оно меньше моего!</p>
+              <p class="correctly">Ты угадал! Молодец. Теперь ты можешь стать одним из нас - воином клана GoIT</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        Development by Maxim Kozlov
+      </div>
+    </footer>
+
+    <script src="./js/1s.js"></script>
+  </body>
+</html>
